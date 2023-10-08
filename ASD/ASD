@@ -1,0 +1,182 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class person {
+public:
+    string name ,adrss;
+    int age;
+    void set_details(string nm,string addr,int ag)
+    {
+        name=nm;
+        adrss=addr;
+        age=ag;
+    }
+    void ger_details()
+    {
+    cout<< "Name : "<<name<<endl;
+    cout<< "Age : "<<age<<endl;
+    cout<< "Address : "<< adrss<<endl;
+
+    }
+
+
+};
+class Student : public person{
+public:
+    int roll;
+    float cur_grade ;
+    Student(string nm,string add ,int ag,int rll ,float cur_grd)
+    {
+
+        name = nm;
+        adrss = add;
+        age=ag;
+        roll=rll;
+        cur_grade=cur_grd;
+    }
+    void get_details()
+    {
+    cout<< "Name : "<<name<<endl;
+    cout<< "Age : "<<age<<endl;
+    cout<< "Address : "<< adrss<<endl;
+    cout<< "Roll : "<<roll<<endl;
+    cout<< "Current grade : "<<cur_grade<<endl;
+
+    }
+
+};
+class Teacher : public person
+{
+public:
+    int teacher_id;
+    string subject;
+    Teacher(string nm,string add,int ag,int id,string sub)
+    {
+        name=nm;
+        adrss = add;
+        age=ag;
+        teacher_id=id;
+        subject=sub;
+    }
+     void get_details()
+    {
+    cout<< "Name : "<<name<<endl;
+    cout<< "Age : "<<age<<endl;
+    cout<< "Address : "<< adrss<<endl;
+    cout<< "teacher ID: "<<teacher_id<<endl;
+    cout<< "subject : "<<subject<<endl;
+
+    }
+
+
+
+
+};
+int main()
+{
+
+    Student Arifur("Arifur","Dhaka",22,0#include<bits/stdc++.h>
+using namespace std;
+
+class person {
+public:
+    string name ,adrss;
+    int age;
+    void set_details(string nm,string addr,int ag)
+    {
+        name=nm;
+        adrss=addr;
+        age=ag;
+    }
+    void ger_details()
+    {
+    cout<< "Name : "<<name<<endl;
+    cout<< "Age : "<<age<<endl;
+    cout<< "Address : "<< adrss<<endl;
+
+    }
+
+
+};
+class Student : public person{
+public:
+    int roll;
+    float cur_grade ;
+    Student(string nm,string add ,int ag,int rll ,float cur_grd)
+    {
+
+        name = nm;
+        adrss = add;
+        age=ag;
+        roll=rll;
+        cur_grade=cur_grd;
+    }
+    void get_details()
+    {
+    cout<< "Name : "<<name<<endl;
+    cout<< "Age : "<<age<<endl;
+    cout<< "Address : "<< adrss<<endl;
+    cout<< "Roll : "<<roll<<endl;
+    cout<< "Current grade : "<<cur_grade<<endl;
+
+    }
+
+};
+class Teacher : public person
+{
+public:
+    int teacher_id;
+    string subject;
+    Teacher(string nm,string add,int ag,int id,string sub)
+    {
+        name=nm;
+        adrss = add;
+        age=ag;
+        teacher_id=id;
+        subject=sub;
+    }
+     void get_details()
+    {
+    cout<< "Name : "<<name<<endl;
+    cout<< "Age : "<<age<<endl;
+    cout<< "Address : "<< adrss<<endl;
+    cout<< "teacher ID: "<<teacher_id<<endl;
+    cout<< "subject : "<<subject<<endl;
+
+    }
+
+
+
+
+};
+int main()
+{
+
+    Student Arifur("Arifur","Dhaka",22,060,4.00);
+    Teacher hasib("Khan Md.Hasib","Dhaka-3434",29,161,"Object Oriented Programing");
+    hasib.get_details();
+    cout<<"\n--------------\n\n";
+    Arifur.get_details();
+}
+
+
+
+
+
+
+
+
+60,4.00);
+    Teacher hasib("Khan Md.Hasib","Dhaka-3434",29,161,"Object Oriented Programing");
+    hasib.get_details();
+    cout<<"\n--------------\n\n";
+    Arifur.get_details();
+}
+
+
+
+
+
+
+
+
